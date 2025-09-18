@@ -166,7 +166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
   textUI: {fileID: 957079725}
   fileManager: {fileID: 219906126}
-  dialogueFileName: Demo
+  dialogueFileName: PedestrianText
   revealMode: 0
   charDelay: 0.05
   wordDelay: 0.2
@@ -187,6 +187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueFileManager
   dialogueFiles:
   - {fileID: 4900000, guid: d1469bc1868fb154ea830d47652f88ec, type: 3}
+  - {fileID: 4900000, guid: 273b7a654e48a604da99e6f9817c1e57, type: 3}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,15 +528,15 @@ RectTransform:
   m_GameObject: {fileID: 957079723}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 8, y: 8.174682, z: 8.174682}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1835615156}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &957079725
 MonoBehaviour:
@@ -584,12 +585,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.75
-  m_fontSizeBase: 36
+  m_fontSize: 320
+  m_fontSizeBase: 800
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 30
-  m_fontSizeMax: 120
+  m_fontSizeMin: 1
+  m_fontSizeMax: 320
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
