@@ -1,3 +1,5 @@
+TMP Supported Rich Text Tags: https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/manual/RichTextSupportedTags.html
+
 TODO:
 - CICD support
 - Refactor DialogueManager to use file index when selecting file to play (maybe even get rid of FileManager)
